@@ -153,7 +153,9 @@ body.dark-theme{
 .dark-theme .footer{
   background-color: hsl(0, 0%, 4%);
 }
-
+.dark-theme .nav__links::after{
+  background-color: var(--white-color);
+}
 .dark-theme::-webkit-scrollbar{
   background-color: hsl(0, 0%, 20%);
 }
@@ -347,7 +349,7 @@ body.dark-theme{
   content: '';
   width: 0%;
   height: 2px;
-  background-color: var(--white-color);
+  background-color: var(--black-color);
   position: absolute;
   left: 0;
   bottom: -.5rem;
